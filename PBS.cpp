@@ -24,6 +24,7 @@
 #include <iostream>
 #include <string>
 #include <map>
+#include <string.h>
 
 using namespace std;
 void outstr1 (char *str, int pos, int len)

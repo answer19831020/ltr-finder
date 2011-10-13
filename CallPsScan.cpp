@@ -19,6 +19,7 @@
 #include "CallPsScan.h"
 #include <assert.h>
 #include <algorithm>
+#include <string.h>
 using namespace std;
 /* trans_seq: translate nt to aa
  * original version written by LI Heng
