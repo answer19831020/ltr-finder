@@ -120,7 +120,7 @@ void CountScore(stick& st)
 
     string PBS_name, PBS_str, f_out, r_out;
     int PBS_begin, PBS_end, PPT_begin, PPT_count;
-    char buf[1024];
+    char buf[10240]; //2014-07-30, increase buf size to prvent segmentation fault, by Zhao
 
     //try to output foward strand
     int f_score = 0;
