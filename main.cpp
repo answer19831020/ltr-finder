@@ -816,7 +816,7 @@ int main (int argc, char *argv[])
     int stringLength;
     int i;
     string namePattern = "";
-    char *version = "1.05";
+    char *version = "1.06";
 
     bool display_usage = false;
     char c;
