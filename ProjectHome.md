@@ -1,0 +1,5 @@
+The Program first constructs all exact match pairs by a suffix-array based algorithm and extends them to long highly similar pairs. Then Smith-Waterman algorithm is used to adjust the ends of LTR pair candidates to get alignment boundaries. These boundaries are subject to re-adjustment using supporting information of TG..CA box and TSRs and reliable LTRs are selected. Next, LTR\_FINDER tries to identify PBS, PPT and RT inside LTR pairs by build-in aligning and counting modules. RT identification includes a dynamic programming to process frame shift. For other protein domains, LTR\_FINDER calls ps\_scan (from PROSITE, http://www.expasy.org/prosite/) to locate cores of important enzymes if they occur. Then possible ORFs are constructed based on that. At last, the program reports possible LTR retrotransposon models in different confidence levels according to how many signals and domains they hit.
+
+Download the lates binary version(v1.0.6): https://drive.google.com/file/d/0ByIJd2OJegCCZjB5WGVIVEJCS1E/edit?usp=sharing
+
+**Anyone wants to become a committer/contributor? You are welcome!**
